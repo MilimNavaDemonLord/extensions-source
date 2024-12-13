@@ -30,7 +30,7 @@ import uy.kohesive.injekt.api.get
 import java.util.Locale
 
 class Kuronime : ConfigurableAnimeSource, ParsedAnimeHttpSource() {
-    override val baseUrl: String = "https://tv1.kuronime.vip"
+    override val baseUrl: String = "https://kuronime.biz"
     override val lang: String = "id"
     override val name: String = "Kuronime"
     override val supportsLatest: Boolean = true
